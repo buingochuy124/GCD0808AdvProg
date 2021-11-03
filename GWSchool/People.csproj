@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0787ECCC-23CD-4C86-92E9-3E05A7722CA3}</ProjectGuid>
+    <ProjectGuid>{ECFEBD19-621E-4FEF-AF2B-68C23A45A7E0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Inheritance</RootNamespace>
-    <AssemblyName>Inheritance</AssemblyName>
+    <RootNamespace>GWSchool</RootNamespace>
+    <AssemblyName>GWSchool</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EarthMonster.cs" />
-    <Compile Include="Hero.cs" />
-    <Compile Include="ICharacter.cs" />
-    <Compile Include="Item.cs" />
-    <Compile Include="Monster.cs" />
-    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SeaMonster.cs" />
-    <Compile Include="ToppingType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

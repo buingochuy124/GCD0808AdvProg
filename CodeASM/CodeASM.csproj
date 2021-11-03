@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Document.cs" />
+    <Compile Include="IUser.cs" />
     <Compile Include="MediaDocument.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonDocument.cs" />

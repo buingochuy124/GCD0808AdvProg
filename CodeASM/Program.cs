@@ -11,16 +11,30 @@ namespace CodeASM
         static void Main(string[] args)
         {
             MediaDocument mediadocument = new MediaDocument();
-            mediadocument.PrintDocumentInfo();
-            Person huy = new Person("huy");
-            Person thong = new Person("thong");
-            Person binh = new Person("binh");
-            Console.WriteLine("========");
             PersonDocument personDocument = new PersonDocument();
-            personDocument.AddPersonToDocment(huy);
-            personDocument.AddPersonToDocment(binh);
-            personDocument.AddPersonToDocment(thong);
+
+            mediadocument.PrintDocumentInfo();
+            Console.WriteLine("---------------------");
             personDocument.PrintDocumentInfo();
+
+
+
+
+            //mediadocument.PrintDocumentInfo();
+            //Person huy = new Person("huy");
+            //Person thong = new Person("thong");
+            //Person binh = new Person("binh");
+
+
+
+
+
+            //Console.WriteLine("========");
+            //PersonDocument personDocument = new PersonDocument();
+            //personDocument.AddPersonToDocment(huy);
+            //personDocument.AddPersonToDocment(binh);
+            //personDocument.AddPersonToDocment(thong);
+            //personDocument.PrintDocumentInfo();
             Console.ReadLine(); 
         }
     }

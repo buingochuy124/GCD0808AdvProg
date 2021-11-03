@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0787ECCC-23CD-4C86-92E9-3E05A7722CA3}</ProjectGuid>
+    <ProjectGuid>{AF62E833-18CE-4492-B468-388C72E9CB15}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Inheritance</RootNamespace>
-    <AssemblyName>Inheritance</AssemblyName>
+    <RootNamespace>HuyMilkTea</RootNamespace>
+    <AssemblyName>HuyMilkTea</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,6 +35,11 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,15 +48,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EarthMonster.cs" />
-    <Compile Include="Hero.cs" />
-    <Compile Include="ICharacter.cs" />
-    <Compile Include="Item.cs" />
-    <Compile Include="Monster.cs" />
-    <Compile Include="Player.cs" />
+    <Compile Include="BubbleMilkTea.cs" />
+    <Compile Include="ClassicMilkTea.cs" />
+    <Compile Include="CocoaMilkTea.cs" />
+    <Compile Include="MilkTea.cs" />
+    <Compile Include="MilkTeaFactory.cs" />
+    <Compile Include="MilkTeaSize.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SeaMonster.cs" />
+    <Compile Include="ThaiGreenTea.cs" />
+    <Compile Include="Topping.cs" />
     <Compile Include="ToppingType.cs" />
   </ItemGroup>
   <ItemGroup>

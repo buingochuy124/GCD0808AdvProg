@@ -45,11 +45,8 @@ namespace CodeASM
                 + "Name:  " + Name + "\nDay Of Birth:  " + DayOfBirth + "\nRole:  " + Role
                 + "\nDescription:   " + Description + "\n-------------------------------------------";
 
-            return obj;
-
-          
+            return obj;          
         }
         
-
     }
 }
